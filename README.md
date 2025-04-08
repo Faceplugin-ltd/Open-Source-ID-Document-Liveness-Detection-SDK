@@ -2,14 +2,11 @@
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceRecognition-Javascript/assets/160750757/657130a9-50f2-486d-b6d5-b78bcec5e6e2.png" width=200/>
 </div>
 
-# ID Document Liveness Detection SDK - Completely Free and Open Source
-
-![Forks](https://img.shields.io/github/forks/Faceplugin-ltd/ID-Document-Liveness-Detection)
-![Stars](https://img.shields.io/github/stars/Faceplugin-ltd/ID-Document-Liveness-Detection)
+# ID Document Liveness Detection SDK
 
 ## Overview
 
-This is world's 1st `completely free` and `open source`  **ID Document Liveness Detection SDK** from [Faceplugin](https://faceplugin.com/). This SDK is a robust and scalable solution designed to ensure the authenticity of ID documents including ID card, Driver License and Passport. By leveraging cutting-edge AI and machine learning algorithms, this SDK can accurately detect live documents, preventing fraud and spoofing attacks.
+This is world's best  **ID Document Liveness Detection SDK** from [Faceplugin](https://faceplugin.com/). This SDK is a robust and scalable solution designed to ensure the authenticity of ID documents including ID card, Driver License and Passport. By leveraging cutting-edge AI and machine learning algorithms, this SDK can accurately detect live documents, preventing fraud and spoofing attacks.
 
 This SDK is perfect for industries such as:
 - Fintech and Banking
@@ -17,8 +14,6 @@ This SDK is perfect for industries such as:
 - eCommerce
 - Telecommunications
 - Government and Public Services
-
-**Please contact us to get the SDK with higher accuracy.**
 
 ## Features
 
