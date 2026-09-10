@@ -2,28 +2,50 @@
 <img alt="" src="https://github.com/Faceplugin-ltd/FaceRecognition-Javascript/assets/160750757/657130a9-50f2-486d-b6d5-b78bcec5e6e2.png" width=200/>
 </div>
 
-# ID Document Liveness Detection SDK
+# Open Source ID Document Liveness Detection SDK
 
-## Overview
+An open-source ID document liveness detection and document anti-spoofing SDK for Windows and Linux.
 
-This is world's best  **ID Document Liveness Detection SDK** from [Faceplugin](https://faceplugin.com/). This SDK is a robust and scalable solution designed to ensure the authenticity of ID documents including ID card, Driver License and Passport. By leveraging cutting-edge AI and machine learning algorithms, this SDK can accurately detect live documents, preventing fraud and spoofing attacks.
+Detect presentation attacks involving identity documents such as passports, national ID cards, driver's licenses, and other government-issued identity documents using on-device processing.
 
-This SDK is perfect for industries such as:
-- Fintech and Banking
-- Healthcare
-- eCommerce
-- Telecommunications
-- Government and Public Services
+* * *
 
-## Features
+## 🚀 Overview
 
-- **AI-Powered Liveness Detection**: Detects live documents in real-time.
-- **Anti-Spoofing**: Prevents fraud by identifying fake or printed documents.
-- **Cross-Platform Support**: Available for web, mobile (iOS, Android), and desktop applications.
-- **High Accuracy**: Ensures reliable identity verification.
-- **Easy Integration**: Simple API and extensive documentation for seamless setup.
+The **Open Source ID Document Liveness Detection SDK** provides developers with tools for detecting whether an identity document presented to a camera or captured in an image is a genuine physical document rather than a presentation attack.
 
-## Installation
+The SDK is designed for privacy-focused identity verification applications where document images can be processed locally without sending sensitive identity data to a remote server.
+
+It can be used as a standalone **ID document liveness detection** component or as part of a complete identity verification workflow together with ID document recognition, OCR, MRZ, barcode scanning, face recognition, and face liveness detection.
+
+### ✨ Key Features
+
+- 🔒 **On-Premise Processing** — Process document images locally without sending identity data to a cloud service
+- 🛡️ **Document Liveness Detection** — Detect presentation attacks involving physical and reproduced identity documents
+- 🎯 **Document Anti-Spoofing** — Help identify attempts to present fraudulent or reproduced documents
+- 🆔 **Identity Document Support** — Designed for passports, ID cards, driver's licenses, and other identity documents
+- ⚡ **Fast Processing** — Optimized for efficient document analysis
+- 🔧 **Easy Integration** — Simple APIs for integrating document liveness detection into applications
+- 🌐 **Cross-Platform** — Designed for Windows and Linux environments
+- 🖥️ **CPU Support** — Can run on systems without a dedicated GPU
+- 🆓 **Open Source** — Available for developers to inspect, modify, and integrate into their projects
+
+### 🎯 Document Liveness Capabilities
+
+The SDK is designed for detecting presentation attacks involving identity documents, including:
+
+- Physical document presentation
+- Printed document attacks
+- Screen-based document presentation
+- Reproduced document images
+- Document presentation attacks
+- Other spoofing attempts involving identity documents
+
+> **Note:** Document liveness detection and document recognition are different capabilities. Liveness detection focuses on determining whether the presented document is genuine/live rather than a reproduced presentation, while document recognition extracts and verifies information such as document type, OCR data, MRZ, and barcodes.
+
+* * *
+
+## 🛠️ Installation
 ### Create anaconda environment
 ```
 conda create -n liveness python=3.11
@@ -41,23 +63,84 @@ pip install ultralytics
 python doc_liveness.py
 ```
 
-## List of our Products
+* * *
 
-* **[FaceRecognition-LivenessDetection-Android](https://github.com/Faceplugin-ltd/FaceRecognition-Android)**
-* **[FaceRecognition-LivenessDetection-iOS](https://github.com/Faceplugin-ltd/FaceRecognition-iOS)**
-* **[FaceRecognition-LivenessDetection-React Native](https://github.com/Faceplugin-ltd/FaceRecognition-React-Native#)**
-* **[FaceRecognition-LivenessDetection-Flutter](https://github.com/Faceplugin-ltd/FaceRecognition-Flutter)**
-* **[FaceRecognition-LivenessDetection-.Net WPF](https://github.com/Faceplugin-ltd/FaceRecognition-WPF-.Net)**
-* **[FaceRecognition-LivenessDetection-.Net MAUI](https://github.com/Faceplugin-ltd/FaceRecognition-.Net)**
-* **[FaceLivenessDetection-Linux](https://github.com/Faceplugin-ltd/FaceLivenessDetection-Linux)**
-* **[FaceRecognition-LivenessDetection-Javascript](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Javascript)**
-* **[FaceRecognition-LivenessDetection-React](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-React)**
-* **[FaceRecognition-LivenessDetection-Vue](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Vue)**
-* **[ID Card Recognition](https://github.com/Faceplugin-ltd/ID-Card-Recognition)**
+## 🆔 Supported Identity Documents
 
-## Contact
-<div align="left">
-<a target="_blank" href="mailto:info@faceplugin.com"><img src="https://img.shields.io/badge/email-info@faceplugin.com-blue.svg?logo=gmail " alt="faceplugin.com"></a>&emsp;
-<a target="_blank" href="https://t.me/faceplugin"><img src="https://img.shields.io/badge/telegram-@faceplugin-blue.svg?logo=telegram " alt="faceplugin.com"></a>&emsp;
-<a target="_blank" href="https://wa.me/+19382025720"><img src="https://img.shields.io/badge/whatsapp-faceplugin-blue.svg?logo=whatsapp " alt="faceplugin.com"></a>
+The SDK is intended for use with a wide range of identity documents, including:
+
+- Passports
+- National ID cards
+- Driver's licenses
+- Residence permits
+- Government-issued identity cards
+- Other machine-readable identity documents
+
+Support for specific document types can depend on the SDK version and underlying models.
+
+* * *
+## 🏢 More Biometric SDKs from Faceplugin
+
+This project is developed by **[Faceplugin](https://faceplugin.com/)**, a provider of on-premise biometric and identity verification SDKs.
+
+If you need capabilities beyond this open-source SDK, explore Faceplugin's commercial SDKs for:
+
+| Solution | Description |
+|---|---|
+| 👤 **Face Recognition** | Face recognition, verification, identification, attributes, and biometric authentication |
+| 🛡️ **Face Liveness Detection** | Detect presentation attacks during face verification and authentication |
+| 🆔 **ID Document Recognition** | OCR, MRZ, barcode recognition, and document classification |
+| 🔐 **ID Document Liveness Detection** | Detect presentation attacks involving identity documents |
+
+Explore our complete suite of **biometric and identity verification solutions**, including face recognition, face liveness detection, ID document recognition and ID document liveness detection SDKs.
+
+
+### Face Recognition SDKs
+- [Face Recognition + Liveness — Android](https://github.com/Faceplugin-ltd/FaceRecognition-Android) · Java, Kotlin
+- [Face Recognition + Liveness — iOS](https://github.com/Faceplugin-ltd/FaceRecognition-iOS) · Objective-C, Swift
+- [Face Recognition + Liveness — Flutter](https://github.com/Faceplugin-ltd/FaceRecognition-Flutter)
+- [Face Recognition + Liveness — React Native](https://github.com/Faceplugin-ltd/FaceRecognition-React-Native)
+- [Face Recognition + Liveness — Ionic Cordova](https://github.com/Faceplugin-ltd/FaceRecognition-Ionic-Cordova)
+- [Face Recognition + Liveness — Ionic Capacitor](https://github.com/Faceplugin-ltd/FaceRecognition-Ionic-Capacitor)
+- [Face Recognition + Liveness — Docker for Linux](https://github.com/Faceplugin-ltd/FaceRecognition-Docker)
+- [Face Recognition + Liveness — Windows](https://github.com/Faceplugin-ltd/FaceRecognition-Windows)
+- [Face Recognition + Liveness — .NET MAUI](https://github.com/Faceplugin-ltd/FaceRecognition-.Net)
+- [Face Recognition + Liveness — .NET WPF](https://github.com/Faceplugin-ltd/FaceRecognition-WPF-.Net)
+
+### ID Document Recognition SDKs
+- [ID Document Recognition — Android](https://github.com/Faceplugin-ltd/ID-Document-Recognition-Android) · Java, Kotlin
+- [ID Document Recognition — iOS](https://github.com/Faceplugin-ltd/ID-Document-Recognition-iOS) · Objective-C, Swift
+- [ID Document Recognition — Flutter](https://github.com/Faceplugin-ltd/ID-Document-Recognition-Flutter)
+- [ID Document Recognition — React Native](https://github.com/Faceplugin-ltd/ID-Document-Recognition-React-Native)
+- [ID Document Recognition — Ionic Cordova](https://github.com/Faceplugin-ltd/ID-Document-Recognition-Ionic-Cordova)
+- [ID Document Recognition — Ionic Capacitor](https://github.com/Faceplugin-ltd/ID-Document-Recognition-Ionic-Capacitor)
+- [ID Document Recognition — Docker for Linux](https://github.com/Faceplugin-ltd/ID-Document-Recognition-Docker)
+- [ID Document Recognition — Windows](https://github.com/Faceplugin-ltd/ID-Document-Recognition-Windows)
+
+### ID Document Liveness Detection SDK
+- [ID Document Liveness Detection](https://github.com/Faceplugin-ltd/ID-Document-Liveness-Detection-Docker)
+
+* * *
+
+
+## 🤝 Support & Contact
+While there are many ways to support this project, starring ⭐️ this GitHub repository is one of the simplest and most impactful. It increases discoverability and helps the project reach a wider audience. Thank you for your support 🙏
+<div align="center">
+  <a href="mailto:info@faceplugin.com">
+    <img src="https://img.shields.io/badge/Email-info@faceplugin.com-blue.svg?logo=gmail" alt="Email"/>
+  </a>
+  <a href="https://wa.me/+14692784822">
+    <img src="https://img.shields.io/badge/WhatsApp-faceplugin-green.svg?logo=whatsapp" alt="WhatsApp"/>
+  </a>
+</div>
+
+### 📞 Get in Touch
+- **Email**: [info@faceplugin.com](mailto:info@faceplugin.com)
+- **WhatsApp**: [+1 (469) 278-4822](https://wa.me/+14692784822)
+- **Website**: [faceplugin.com](https://faceplugin.com/)
+
+---
+
+<div align="center">
+  <sub>Made with ❤️ by <a href="https://faceplugin.com">Faceplugin</a></sub>
 </div>
